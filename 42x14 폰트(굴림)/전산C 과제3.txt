@@ -1,0 +1,89 @@
+/* 과제 1
+#include<stdio.h>
+#include<math.h>
+
+int main(void)
+{
+	int num, count = -1;
+	int i = 1;
+
+	scanf("%d", &num);
+	
+	while (i <= num)
+	{
+		i = i * 3;
+		count++;
+	}
+
+	printf("%d %.2f", count, sqrt(count));
+}
+*/
+
+/* 과제 2
+#include<stdio.h>
+
+float calculator(int a, char ch, int b)
+{
+	float value = 0.0;
+
+	if (ch == '+')
+	{
+		value = (float)a + b;
+	}
+
+	if (ch == '-')
+	{
+		value = (float)a - b;
+	}
+
+	if (ch == '*')
+	{
+		value = (float)a * b;
+	}
+
+	if (ch == '/')
+	{
+		value = (float)a / b;
+	}
+
+	return value;
+}
+
+int main(void)
+{
+	char arr[4] = {'\0'};
+	float result = 0.0;
+
+	scanf("%s", arr);
+
+	result = calculator(arr[0] - '0', arr[1], arr[2] - '0');
+
+	printf("%.2f", result);
+
+	return 0;
+}
+*/
+
+
+/*
+#include<stdio.h>
+#include<string.h>
+
+int main(void)
+{
+	char arr[100] = {0};
+	char reverse[100] = {0};
+	int cnt, i;
+
+	scanf("%s", arr);
+	cnt = strlen(arr);
+
+	for (i = 0; i < cnt; i++)
+	{
+		reverse[cnt - i - 1] = arr[i];
+	}
+
+	printf("%d %s", cnt, reverse);
+	return 0;
+}
+*/

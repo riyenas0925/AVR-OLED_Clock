@@ -1,0 +1,15 @@
+CodeVisionAVR C Compiler V1.24.8d Professional
+(C) Copyright 1998-2006 Pavel Haiduc, HP InfoTech s.r.l.
+http://www.hpinfotech.com
+
+File: C:\Users\riyen\Desktop\프로젝트\AVR-OLED_Clock_DS1307\DS1307 UART\DS1307 UART.c
+Global variables memory map:
+
+Variable                          Address   Size
+sec_1                                                                   R4      1
+sec_10                                                                  R5      1
+min_1                                                                   R6      1
+min_10                                                                  R7      1
+hour_1                                                                  R8      1
+hour_10                                                                 R9      1
+time_data                                                             160h      3
